@@ -4,23 +4,19 @@ Replication Study Guidelines<br/>
 Dr. Sarah Nadi, NYUAD
 </p>
 
-# Replication Repository README Template -- CS-UH-3260 Software Analytics
+# Replication 2 -- CS-UH-3260 Software Analytics
 
 
 ## Overview
 
-This repo provides a template and and guidelines for creating a README file for your replication study repository. The README serves as the primary documentation for your repository and helps evaluators understand your work, navigate your repository structure, and reproduce your replication. You can create a repo based on this template and modify the README and content as needed.
+This repo contains the scripts and data used for the `Replication 2` assignment, focusing on the paper *BUMP: A Benchmark of Reproducible Breaking Dependency Updates*. The scope of our replication includes `Table II` (covers the distribution of breaking updates across several failure categories), the reproduction of five provided breaking updated commits, and a replication using up-to-date mined data comparing 5 projects from the benchmark against 5 new projects.
 
-
-## README Structure Template
-
-Your repository README should include the following sections:
 
 ### 1. Project Title and Overview
 
-- **Paper Title**: [Full title of the replicated paper]
-- **Authors**: [Original paper authors]
-- **Replication Team**: [Your team members' names]
+- **Paper Title**: BUMP: A Benchmark of Reproducible Breaking Dependency Updates
+- **Authors**: Reyes, Frank and Gamage, Yogya and Skoglund, Gabriel and Baudry, Benoit and Monperrus, Martin
+- **Replication Team**: Matthias Kebede and Muhammad Arhum
 - **Course**: CS-UH 3260 Software Analytics, NYUAD
 - **Brief Description**: 
   - 2-3 sentences summarizing what the original paper is about
@@ -46,23 +42,33 @@ notes/                    # Optional if you have any notes you took during repro
 
 ### 3. Setup Instructions
 
-- **Prerequisites**: Required software, tools, and versions
-  - OS requirements
-  - Programming language versions (Python, R, etc.)
-  - Required packages/libraries and versions
-  - Any other dependencies
+- **Prerequisites**:
+  - Python 3.11 or higher
+  - Git and Pip are installed (tested with `git version 2.41.0.windows.1` and `pip 23.1.2`)
 - **Installation Steps**: Step-by-step instructions to set up the environment
-  - How to install dependencies
-  - How to configure paths or settings
-  - Any environment variables needed
+  - Clone the repository (e.g. `git clone https://github.com/MatthiasKebede/Replication_2`) and navigate to the directory
+  <!-- - Create a virtual environment and activate it, then install required libraries:
+  ```bash
+  python -m venv .venv                   # create venv
+  source .venv/bin/activate              # activate venv (`.venv/scripts/activate` on Windows)
+  pip install -r requirements.txt        # install libraries
+  ```
+  - Create a `.env` file and paste in your GitHub Personal Access Token (e.g. `GITHUB_TOKEN=sample_token_value`) and Travis-CI API Token (e.g. `TRAVIS_TOKEN=sample_token`) -->
+- **Running Instructions**:
+  - 
 
 ### 4. GenAI Usage
 
 **GenAI Usage**: Briefly document any use of generative AI tools (e.g., ChatGPT, GitHub Copilot, Cursor) during the replication process. Include:
-
-  - Which tools were used
+  <!-- - Which tools were used
   - How they were used (e.g., understanding scripts, exploring datasets, understanding data fields, debugging)
-  - Brief description of the assistance provided
+  - Brief description of the assistance provided -->
+
+  - **GitHub Copilot**
+    - Used to help troubleshoot Java (installation, setup, etc.) and the provided scripts (miner, reproducer)
+
+
+
 
 
 ## Grading Criteria for README
