@@ -1,0 +1,6 @@
+repo,commit,pre_build_status,breaking_build_status,reproduced
+https://github.com/quickfix-j/quickfixj/pull/502,00a7cc31784ac4a9cc27d506a73ae589d6df36d6,SUCCESS,FAIL,YES
+https://github.com/googleapis/java-storage-nio/pull/1206,01737a7815069eef6fd035f077f5cc6f0a79b635,SUCCESS,FAIL,YES
+https://github.com/retest/recheck/pull/1041,02363207c365b3befd6426f6dda5c8eac904d760,SUCCESS,FAIL,YES
+https://github.com/jenkinsci/cppcheck-plugin/pull/92,940214f7419c564431163c4599d24ce3152a2ca0,SUCCESS,FAIL,YES
+https://github.com/SPARQL-Anything/sparql.anything/pull/303,fa6503da9fd5431abca41561a34d54e07fbbf7d0,SUCCESS,FAIL,YES

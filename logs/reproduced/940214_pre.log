@@ -1,0 +1,168 @@
+Unable to find image 'ghcr.io/chains-project/breaking-updates:940214f7419c564431163c4599d24ce3152a2ca0-pre' locally
+940214f7419c564431163c4599d24ce3152a2ca0-pre: Pulling from chains-project/breaking-updates
+ca99a3db2a26: Pulling fs layer
+085387a92d58: Pulling fs layer
+085387a92d58: Download complete
+085387a92d58: Pull complete
+ca99a3db2a26: Download complete
+ca99a3db2a26: Pull complete
+Digest: sha256:5b5351294868da99e88de3f8d560936367b3dd8ab37f8a084ea684d363436fef
+Status: Downloaded newer image for ghcr.io/chains-project/breaking-updates:940214f7419c564431163c4599d24ce3152a2ca0-pre
+[INFO] Scanning for projects...
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:pom:3.28 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:pom:3.28 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from incrementals: https://repo.jenkins-ci.org/incrementals/org/jenkins-ci/tools/maven-hpi-plugin/3.28/maven-hpi-plugin-3.28.pom
+[WARNING] The POM for org.jenkins-ci.tools:maven-hpi-plugin:jar:3.28 is missing, no dependency information available
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:jar:3.28 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Artifact org.jenkins-ci.tools:maven-hpi-plugin:jar:3.28 is present in the local repository, but cached from a remote repository ID that is unavailable in current build context, verifying that is downloadable from [incrementals (https://repo.jenkins-ci.org/incrementals/, default, releases), central (https://repo.maven.apache.org/maven2, default, releases)]
+[INFO] Downloading from incrementals: https://repo.jenkins-ci.org/incrementals/org/jenkins-ci/tools/maven-hpi-plugin/3.28/maven-hpi-plugin-3.28.jar
+[WARNING] Failed to build parent project for org.jenkins-ci.plugins:cppcheck:hpi:1.27-SNAPSHOT
+[INFO] 
+[INFO] ------------------< org.jenkins-ci.plugins:cppcheck >-------------------
+[INFO] Building Jenkins Cppcheck Plug-in 1.27-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ hpi ]---------------------------------
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:validate (default-validate)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:validate-hpi (default-validate-hpi)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:initialize (default-initialize)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:insert-test (default-insert-test)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:test-hpl (default-test-hpl)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:resolve-test-dependencies (default-resolve-test-dependencies)'
+[WARNING] Parameter 'showDeprecation' is unknown for plugin 'maven-hpi-plugin:3.28:test-runtime (default-test-runtime)'
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ cppcheck ---
+[INFO] Deleting /cppcheck-plugin/target
+[INFO] 
+[INFO] --- hpi:3.28:validate (default-validate) @ cppcheck ---
+[INFO] 
+[INFO] --- hpi:3.28:validate-hpi (default-validate-hpi) @ cppcheck ---
+[INFO] 
+[INFO] --- enforcer:3.1.0:display-info (display-info) @ cppcheck ---
+[INFO] Maven Version: 3.9.2
+[INFO] JDK Version: 11.0.19 normalized as: 11.0.19
+[INFO] Java Vendor: Alpine
+[INFO] OS Info: Arch: amd64 Family: unix Name: linux Version: 6.6.87.2-microsoft-standard-wsl2
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (display-info) @ cppcheck ---
+[INFO] 
+[INFO] --- enforcer:3.1.0:enforce (no-snapshots-in-release) @ cppcheck ---
+[INFO] 
+[INFO] --- hpi:3.28:initialize (default-initialize) @ cppcheck ---
+[INFO] 
+[INFO] --- gplus:1.13.1:addTestSources (test-in-groovy) @ cppcheck ---
+[INFO] 
+[INFO] --- localizer:1.31:generate (default) @ cppcheck ---
+[INFO] 
+[INFO] --- jaxb2:2.5.0:xjc (generatedCppcheck1) @ cppcheck ---
+[INFO] Created EpisodePath [/cppcheck-plugin/target/generated-sources/jaxb/META-INF/JAXB]: true
+[INFO] Ignored given or default xjbSources [/cppcheck-plugin/src/main/xjb], since it is not an existent file or directory.
+[INFO] 
+[INFO] --- jaxb2:2.5.0:xjc (generatedCppcheck2) @ cppcheck ---
+[INFO] Created EpisodePath [/cppcheck-plugin/target/generated-sources/jaxb/META-INF/JAXB]: true
+[INFO] Ignored given or default xjbSources [/cppcheck-plugin/src/main/xjb], since it is not an existent file or directory.
+[INFO] 
+[INFO] --- resources:3.2.0:resources (default-resources) @ cppcheck ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 35 resources
+[INFO] Copying 1 resource
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- flatten:1.2.7:flatten (flatten) @ cppcheck ---
+[INFO] Generating flattened POM of project org.jenkins-ci.plugins:cppcheck:hpi:1.27-SNAPSHOT...
+[INFO] 
+[INFO] --- compiler:3.10.1:compile (default-compile) @ cppcheck ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 56 source files to /cppcheck-plugin/target/classes
+[INFO] 
+[INFO] --- access-modifier-checker:1.27:enforce (default-enforce) @ cppcheck ---
+[INFO] 
+[INFO] --- hpi:3.28:insert-test (default-insert-test) @ cppcheck ---
+[INFO] 
+[INFO] --- gplus:1.13.1:generateTestStubs (test-in-groovy) @ cppcheck ---
+[INFO] No sources specified for stub generation. Skipping.
+[INFO] Generated 0 stubs.
+[INFO] 
+[INFO] --- antrun:3.1.0:run (createTempDir) @ cppcheck ---
+[INFO] Executing tasks
+[INFO]     [mkdir] Created dir: /cppcheck-plugin/target/tmp
+[INFO] Executed tasks
+[INFO] 
+[INFO] --- resources:3.2.0:testResources (default-testResources) @ cppcheck ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered properties files.
+[INFO] Copying 6 resources
+[INFO] 
+[INFO] --- compiler:3.10.1:testCompile (default-testCompile) @ cppcheck ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 9 source files to /cppcheck-plugin/target/test-classes
+[INFO] 
+[INFO] --- hpi:3.28:test-hpl (default-test-hpl) @ cppcheck ---
+[INFO] Generating /cppcheck-plugin/target/test-classes/the.hpl
+[INFO] 
+[INFO] --- hpi:3.28:resolve-test-dependencies (default-resolve-test-dependencies) @ cppcheck ---
+[INFO] 
+[INFO] --- gplus:1.13.1:compileTests (test-in-groovy) @ cppcheck ---
+[INFO] No sources specified for compilation. Skipping.
+[INFO] 
+[INFO] --- hpi:3.28:test-runtime (default-test-runtime) @ cppcheck ---
+[INFO] Setting jenkins.insaneHook to --patch-module=java.base=/tmp/org-netbeans-insane-hook12349177121645063408.jar --add-exports=java.base/org.netbeans.insane.hook=ALL-UNNAMED
+[INFO] 
+[INFO] --- surefire:3.0.0-M7:test (default-test) @ cppcheck ---
+[INFO] Using auto detected provider org.apache.maven.surefire.junit4.JUnit4Provider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running InjectedTest
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/root/.m2/repository/org/codehaus/groovy/groovy-all/2.4.21/groovy-all-2.4.21.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Tests run: 31, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.559 s - in InjectedTest
+[INFO] Running com.thalesgroup.hudson.plugins.cppcheck.CppcheckBuildHealthEvaluatorTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.35 s - in com.thalesgroup.hudson.plugins.cppcheck.CppcheckBuildHealthEvaluatorTest
+[INFO] Running com.thalesgroup.hudson.plugins.cppcheck.CppcheckBuildResultEvaluatorTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.485 s - in com.thalesgroup.hudson.plugins.cppcheck.CppcheckBuildResultEvaluatorTest
+[INFO] Running com.thalesgroup.hudson.plugins.cppcheck.CppcheckParserResultTest
+[INFO] Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.517 s - in com.thalesgroup.hudson.plugins.cppcheck.CppcheckParserResultTest
+[INFO] Running com.thalesgroup.hudson.plugins.cppcheck.CppcheckParserTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.323 s - in com.thalesgroup.hudson.plugins.cppcheck.CppcheckParserTest
+[INFO] Running com.thalesgroup.hudson.plugins.cppcheck.CppcheckResultTest
+[INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.905 s - in com.thalesgroup.hudson.plugins.cppcheck.CppcheckResultTest
+[INFO] Running com.thalesgroup.hudson.plugins.cppcheck.CppcheckSummaryTest
+[INFO] Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.4 s - in com.thalesgroup.hudson.plugins.cppcheck.CppcheckSummaryTest
+[INFO] Running org.jenkinsci.plugins.cppcheck.CppcheckParserTest
+[INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.179 s - in org.jenkinsci.plugins.cppcheck.CppcheckParserTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 58, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] 
+[INFO] --- animal-sniffer:1.21:check (check) @ cppcheck ---
+[INFO] Signature checking is skipped.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  23.470 s
+[INFO] Finished at: 2026-03-12T17:13:49Z
+[INFO] ------------------------------------------------------------------------
+[WARNING] 
+[WARNING] Plugin validation issues were detected in 11 plugin(s)
+[WARNING] 
+[WARNING]  * org.apache.maven.plugins:maven-resources-plugin:3.2.0
+[WARNING]  * org.jenkins-ci.tools:maven-hpi-plugin:3.28
+[WARNING]  * org.apache.maven.plugins:maven-compiler-plugin:3.10.1
+[WARNING]  * org.kohsuke:access-modifier-checker:1.27
+[WARNING]  * org.codehaus.mojo:flatten-maven-plugin:1.2.7
+[WARNING]  * org.codehaus.mojo:animal-sniffer-maven-plugin:1.21
+[WARNING]  * org.apache.maven.plugins:maven-enforcer-plugin:3.1.0
+[WARNING]  * org.apache.maven.plugins:maven-surefire-plugin:3.0.0-M7
+[WARNING]  * org.codehaus.gmavenplus:gmavenplus-plugin:1.13.1
+[WARNING]  * org.jvnet.localizer:localizer-maven-plugin:1.31
+[WARNING]  * org.codehaus.mojo:jaxb2-maven-plugin:2.5.0
+[WARNING] 
+[WARNING] For more or less details, use 'maven.plugin.validation' property with one of the values (case insensitive): [BRIEF, DEFAULT, VERBOSE]
+[WARNING] 
