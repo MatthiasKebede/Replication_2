@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/micycle1/PGS/pull/156",
+  "project" : "PGS",
+  "projectOrganisation" : "micycle1",
+  "breakingCommit" : "8481d3efa34980062df463716d4a50d6d6bfacc2",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.processing",
+    "dependencyArtifactID" : "core",
+    "previousVersion" : "4.4.7",
+    "newVersion" : "4.4.10",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "GNU General Public License v3.0"
+}

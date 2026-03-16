@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mishmash-io/distributed-computing-stacks/pull/82",
+  "project" : "distributed-computing-stacks",
+  "projectOrganisation" : "mishmash-io",
+  "breakingCommit" : "0ca52489b90a677f486ec6ab6ab93b2ffdead78f",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.yaml",
+    "dependencyArtifactID" : "snakeyaml",
+    "previousVersion" : "2.3",
+    "newVersion" : "2.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

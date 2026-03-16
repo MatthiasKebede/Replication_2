@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/assertj/assertj/pull/4124",
+  "project" : "assertj",
+  "projectOrganisation" : "assertj",
+  "breakingCommit" : "069f22bf1b385f7af1220be747de1d34c2c0c9d9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.jboss.logging",
+    "dependencyArtifactID" : "jboss-logging",
+    "previousVersion" : "3.6.1.Final",
+    "newVersion" : "3.6.2.Final",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "other",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

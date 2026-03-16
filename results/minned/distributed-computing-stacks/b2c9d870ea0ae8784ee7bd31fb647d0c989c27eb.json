@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mishmash-io/distributed-computing-stacks/pull/572",
+  "project" : "distributed-computing-stacks",
+  "projectOrganisation" : "mishmash-io",
+  "breakingCommit" : "b2c9d870ea0ae8784ee7bd31fb647d0c989c27eb",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.glassfish.jaxb",
+    "dependencyArtifactID" : "jaxb-runtime",
+    "previousVersion" : "4.0.6",
+    "newVersion" : "4.0.7",
+    "dependencyScope" : "runtime",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

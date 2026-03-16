@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mishmash-io/distributed-computing-stacks/pull/392",
+  "project" : "distributed-computing-stacks",
+  "projectOrganisation" : "mishmash-io",
+  "breakingCommit" : "502ed248e5b8344bfbffabb78d6633eee9e8c9da",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "dnsjava",
+    "dependencyArtifactID" : "dnsjava",
+    "previousVersion" : "3.6.3",
+    "newVersion" : "3.6.4",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

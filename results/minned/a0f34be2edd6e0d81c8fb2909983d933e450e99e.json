@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/mishmash-io/distributed-computing-stacks/pull/125",
+  "project" : "distributed-computing-stacks",
+  "projectOrganisation" : "mishmash-io",
+  "breakingCommit" : "a0f34be2edd6e0d81c8fb2909983d933e450e99e",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.xmlunit",
+    "dependencyArtifactID" : "xmlunit-placeholders",
+    "previousVersion" : "2.10.0",
+    "newVersion" : "2.10.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

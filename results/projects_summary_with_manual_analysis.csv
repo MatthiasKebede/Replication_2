@@ -1,0 +1,11 @@
+project,bump_breaking_updates,manual_breaking_updates,benchmark_status
+PGS,10,52,in benchmark
+activemq,5,29,not in benchmark
+assertj,3,220,not in benchmark
+billy,1,1,in benchmark
+cia,9,60,not in benchmark
+distributed-computing-stacks,43,269,not in benchmark
+dropwizard,1,0,in benchmark
+maven-resolver,12,29,in benchmark
+mina-sshd,1,12,in benchmark
+tika,7,27,not in benchmark
