@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/activemq/pull/1782",
+  "project" : "activemq",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c9e0beee96c71c0dd59aa321b8c1e10e4ec9b703",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.thoughtworks.qdox",
+    "dependencyArtifactID" : "qdox",
+    "previousVersion" : "1.12.1",
+    "newVersion" : "2.2.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

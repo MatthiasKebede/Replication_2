@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/activemq/pull/1582",
+  "project" : "activemq",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "c07f56471057d4262c592976c3b0840eefc7d631",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "org.apache.groovy",
+    "dependencyArtifactID" : "groovy",
+    "previousVersion" : "5.0.2",
+    "newVersion" : "5.0.3",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "patch",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

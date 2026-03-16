@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/tika/pull/2668",
+  "project" : "tika",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "9d1d910ec21bc2844e69eeded29dc9b54b7443e9",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.micronaut",
+    "dependencyArtifactID" : "micronaut-websocket",
+    "previousVersion" : "3.10.5",
+    "newVersion" : "4.10.16",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

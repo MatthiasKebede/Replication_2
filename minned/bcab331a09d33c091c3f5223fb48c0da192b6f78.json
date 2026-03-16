@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/activemq/pull/1786",
+  "project" : "activemq",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "bcab331a09d33c091c3f5223fb48c0da192b6f78",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "jakarta.servlet.jsp",
+    "dependencyArtifactID" : "jakarta.servlet.jsp-api",
+    "previousVersion" : "3.1.1",
+    "newVersion" : "4.0.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "major",
+    "dependencySection" : "unknown"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/apache/mina-sshd/pull/810",
+  "project" : "mina-sshd",
+  "projectOrganisation" : "apache",
+  "breakingCommit" : "4858c22db694bdc3a8486cde67ade92b482991ce",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "human",
+  "breakingCommitAuthor" : "bot",
+  "updatedDependency" : {
+    "dependencyGroupID" : "io.netty",
+    "dependencyArtifactID" : "netty-bom",
+    "previousVersion" : "4.2.0.Final",
+    "newVersion" : "4.2.5.Final",
+    "dependencyScope" : "import",
+    "versionUpdateType" : "other",
+    "dependencySection" : "dependencyManagement"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}

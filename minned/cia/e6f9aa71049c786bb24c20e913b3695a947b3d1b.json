@@ -1,0 +1,19 @@
+{
+  "url" : "https://github.com/Hack23/cia/pull/8337",
+  "project" : "cia",
+  "projectOrganisation" : "Hack23",
+  "breakingCommit" : "e6f9aa71049c786bb24c20e913b3695a947b3d1b",
+  "prAuthor" : "bot",
+  "preCommitAuthor" : "bot",
+  "breakingCommitAuthor" : "human",
+  "updatedDependency" : {
+    "dependencyGroupID" : "com.google.errorprone",
+    "dependencyArtifactID" : "error_prone_annotations",
+    "previousVersion" : "2.46.0",
+    "newVersion" : "2.47.0",
+    "dependencyScope" : "compile",
+    "versionUpdateType" : "minor",
+    "dependencySection" : "dependencies"
+  },
+  "licenseInfo" : "Apache License 2.0"
+}
