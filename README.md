@@ -19,23 +19,28 @@ This repo contains the scripts and data used for the `Replication 2` assignment,
 - **Replication Team**: Matthias Kebede and Muhammad Arhum
 - **Course**: CS-UH 3260 Software Analytics, NYUAD
 - **Brief Description**: 
-  - 2-3 sentences summarizing what the original paper is about
-  - 2-3 sentences summarizing what this replication study does
+  - The original study revolves around breaking dependency updates and accordingly offers a benchmark of reproducible real-world cases. Their process includes mining GitHub repositories and identifying potential breaking updates, then attempting to build the pre- and post-commit commits to verify the reproducibility of that specific breaking update.
+  - Our partial replication study focuses on RQ1, in which we successfully reproduce their findings for a subset of identified breaking updates and obtain mixed results when reproducing their categorization of breaking updates by failure type. We further investigated whether new breaking dependency updates have appeared after the original dataset cutoff.
 
 ### 2. Repository Structure
 
 Document your repository structure clearly. Organize your repository using the following standard structure:
 
 ```
-README                    # Documentation for your repository
-datasets/                 # Subset of data you used (if any). If you used the whole dataset, include instructions on how to download it
-replication_scripts/      # Scripts used in your replication:
-                          #   - If you used scripts as-is: document which scripts you ran
-                          #   - If you modified scripts: include the modified scripts
-                          #   - If you created new scripts: include all new scripts
-outputs/                  # Your generated results only
-logs/                     # Console output, errors, screenshots
-notes/                    # Optional if you have any notes you took during reproduction (E.g., where you noted discrepencies etc)
+README                    # Repository documentation
+datasets/                 # Original study data
+  - benchmark                 # Raw JSON data
+scripts/                  # Original study scripts
+replication_scripts/      # Scripts for replication (by us)
+  - result.sh                 # Check breaking builds for reproduction
+  - table2.py                 # Reproduce Table II by reading `datasets/benchmark` files
+logs/                     # Outputs produced by running scripts (incl. our replication data)
+  - benchmark                 # Raw JSON data
+  - reproduced                # Log files of reproduced pre- and breaking builds
+notes/                    # Brief notes
+results/                  # Calculated result CSV files
+  - results.csv               # Results of checking build breakages
+  - table2.csv                # Reproduction data for Table II
 ```
 
 **For each folder and file, provide a brief description of what it contains.**
@@ -43,19 +48,20 @@ notes/                    # Optional if you have any notes you took during repro
 ### 3. Setup Instructions
 
 - **Prerequisites**:
+  - Java 17 or higher
   - Python 3.11 or higher
   - Git and Pip are installed (tested with `git version 2.41.0.windows.1` and `pip 23.1.2`)
 - **Installation Steps**: Step-by-step instructions to set up the environment
   - Clone the repository (e.g. `git clone https://github.com/MatthiasKebede/Replication_2`) and navigate to the directory
-  <!-- - Create a virtual environment and activate it, then install required libraries:
+  - Create a virtual environment and activate it, then install required libraries (only needed to run original study's `scripts/` files):
   ```bash
   python -m venv .venv                   # create venv
   source .venv/bin/activate              # activate venv (`.venv/scripts/activate` on Windows)
   pip install -r requirements.txt        # install libraries
   ```
-  - Create a `.env` file and paste in your GitHub Personal Access Token (e.g. `GITHUB_TOKEN=sample_token_value`) and Travis-CI API Token (e.g. `TRAVIS_TOKEN=sample_token`) -->
 - **Running Instructions**:
-  - 
+  - To reproduce Table II, simply run `python table2.py` with valid data in the `datasets/benchmark` directory.
+  - To run the Java tools (miner and reproducer), check https://github.com/chains-project/bump?tab=readme-ov-file#tools to find specific instructions.
 
 ### 4. GenAI Usage
 
